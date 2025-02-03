@@ -12,3 +12,45 @@ img,
 video {
   display: block;
 }
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 136px;
+}
+
+.heart {
+  color: #f00;
+  font-family: "Font Awesome 6 Free";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.texte {
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.button.is-active {
+  background: #f00;
+  color: white;
+}
+
+.texte.is-active {
+  color: white;
+}
+
+.heart.is-active {
+  color: white;
+}
